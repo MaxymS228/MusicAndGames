@@ -1,0 +1,75 @@
+/* Загальний контейнер для чату */
+.chat-container {
+    max-width: 600px;
+    background-image: url(https://i.ytimg.com/vi/UEd4wgNeeZk/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.chat-header {
+    text-align: center;
+    color: #ffffff;
+}
+
+.chat-quote {
+    text-align: center;
+    font-style: italic;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Контейнер для повідомлень */
+.messages-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.message-sender {
+    color: #2c3e50;
+}
+
+.message-time {
+    font-size: 12px;
+    color: #7f8c8d;
+}
+
+/* Контейнер для поля вводу і кнопки */
+.input-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.message-input {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.send-button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: #2980b9;
+}

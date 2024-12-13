@@ -1,0 +1,101 @@
+.home-container {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+h1, h2, h4 {
+  margin-bottom: 1rem;
+}
+
+.hero-section {
+  background: url('https://th.bing.com/th/id/OIP.NSqBKirDy7sj9qEaqCfBDwHaEK?rs=1&pid=ImgDetMain') no-repeat center center/cover;
+  color: white;
+  padding: 4rem 2rem;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+}
+
+.cta-button {
+  background-color: #ff6347;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #e5533d;
+}
+
+/* Секція з картами */
+.features-section {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  background-color: #f8f9fa;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  width: 250px;
+  cursor: pointer; 
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Блок About */
+.about-section {
+  background-color: #f0f4f8;
+}
+
+.about-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-section li {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+/* Відгуки */
+.testimonials {
+  background: #222;
+  color: white;
+}
+
+.testimonials blockquote {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin: 0 auto;
+  max-width: 600px;
+}
